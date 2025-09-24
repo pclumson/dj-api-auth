@@ -1,0 +1,8 @@
+__title__ = 'dj_api_auth'
+__description__ = 'Authentication and Registration in Django Rest Framework.'
+__url__ = 'http://github.com/pclumson/dj_apis_allauth'
+__version__ = '1.0.0'
+__author__ = '@pclumson https://github.com/pclumson'
+__author_email__ = 'sierralustra.com.senate390@passfwd.com'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2025 @pclumson https://github.com/pclumson'
