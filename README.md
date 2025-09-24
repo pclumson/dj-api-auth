@@ -1,6 +1,13 @@
 # dj-api-auth
 Django Rest Framework  API Endpoints secure Authentications . This package is ideal for Mobile Applications or Single Page Application Integration such  as Flutter, VueJs, React, AngularJs etc....
 
+# Why this project ?
+
+The maintainer of "dj-rest-auth" is no longer interested in maintaining the project with Django-allauth issues and nor accepting pull requests.
+So I have start this project to help the Good cause of Open Source Software greatness lives on.
+So anybody that uses this package and willing to help maintain it is more than welcom to fork it and make a pull request.
+Thanks.
+
 # The regular django api token with user's info
 
 <img width="1535" height="958" alt="Screenshot from 2025-09-24 01-33-56" src="https://github.com/user-attachments/assets/3836823e-99af-4444-9cd2-7a29c6e6519d" />
@@ -14,3 +21,84 @@ This is the token and user info
 
 
 <img width="1535" height="958" alt="Screenshot from 2025-09-24 01-51-29" src="https://github.com/user-attachments/assets/42746d44-4a31-4661-be37-053eb966ab27" />
+
+
+## Requirements
+- Django >= 4.2
+- Python >= 3.12
+
+## Quick Setup
+
+Install package
+
+    pip install dj-api-auth
+    
+Add `dj_api_auth` app to INSTALLED_APPS in your django settings.py:
+
+```python
+INSTALLED_APPS = (
+    ...,
+    'rest_framework',
+    'rest_framework.authtoken',
+    ...,
+    'dj_api_auth'
+)
+```
+    
+Add URL patterns
+
+```python
+urlpatterns = [
+    path('dj-api-auth/', include('dj_api_auth.urls')),
+]
+```
+    
+
+(Optional) Use Http-Only cookies
+
+```python
+REST_AUTH = {
+    'USE_JWT': True,
+    'JWT_AUTH_COOKIE': 'jwt-auth',
+}
+```
+
+### Testing
+
+Install required modules with `pip install -r  dj_rest_auth/tests/requirements.txt`
+
+To run the tests within a virtualenv, run `python runtests.py` from the repository directory.
+The easiest way to run test coverage is with [`coverage`](https://pypi.org/project/coverage/),
+which runs the tests against all supported Django installs. To run the test coverage 
+within a virtualenv, run `coverage run ./runtests.py` from the repository directory then run `coverage report`.
+
+#### Tox
+
+Testing may also be done using [`tox`](https://pypi.org/project/tox/), which
+will run the tests against all supported combinations of Python and Django.
+
+Install tox, either globally or within a virtualenv, and then simply run `tox`
+from the repository directory. As there are many combinations, you may run them
+in [`parallel`](https://tox.readthedocs.io/en/latest/config.html#cmdoption-tox-p)
+using `tox --parallel`.
+
+The `tox.ini` includes an environment for testing code [`coverage`](https://pypi.org/project/coverage/)
+and you can run it and view this report with `tox -e coverage`.
+
+Linting may also be performed via [`flake8`](https://pypi.org/project/flake8/)
+by running `tox -e flake8`.
+
+### Documentation
+
+Work in progress...
+
+
+### Acknowledgements
+
+This project began as a fork of `django-rest-auth` and "dj-rest-auth" . Big thanks to everyone who contributed to that repo!
+
+#### A note from Me
+I will trying my best to maintain this project but anyone is welcom to help maintined it.
+There is so many features that I am planning on adding to this.
+So feel free to make propositions on features that should be added.
+Thanks.
