@@ -1,4 +1,4 @@
-# dj-api-auth
+# dj-apis-allauth
 Django Rest Framework  API Endpoints secure Authentications . This package is ideal for Mobile Applications or Single Page Application Integration such  as Flutter, VueJs, React, AngularJs etc....
 
 # Why this project ?
@@ -32,7 +32,7 @@ This is the token and user info
 
 Install package
 
-    pip install dj-api-auth
+    pip install dj-apis-allauth
     
 Add `dj_api_auth` app to INSTALLED_APPS in your django settings.py:
 
@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'rest_framework.authtoken',
     ...,
-    'dj_api_auth'
+    'dj_apis_allauth'
 )
 ```
     
@@ -50,7 +50,7 @@ Add URL patterns
 
 ```python
 urlpatterns = [
-    path('dj-api-auth/', include('dj_api_auth.urls')),
+    path('dj-apis-allauth/', include('dj_apis_allauth.urls')),
 ]
 ```
     
@@ -66,7 +66,7 @@ REST_AUTH = {
 
 ### Testing
 
-Install required modules with `pip install -r  dj_api_auth/tests/requirements.txt`
+Install required modules with `pip install -r  dj_apis_allauth/tests/requirements.txt`
 
 To run the tests within a virtualenv, run `python runtests.py` from the repository directory.
 The easiest way to run test coverage is with [`coverage`](https://pypi.org/project/coverage/),
