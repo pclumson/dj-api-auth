@@ -4,7 +4,7 @@ Django Rest Framework  API Endpoints secure Authentications . This package is id
 # Why this project ?
 
 The maintainer of "dj-rest-auth" is no longer interested in maintaining the project with Django-allauth issues and nor accepting pull requests.
-So I have start this project to help the Good cause of Open Source Software greatness lives on.
+So I have started this project to help the Good cause of Open Source Software greatness lives on.
 So anybody that uses this package and willing to help maintain it is more than welcom to fork it and make a pull request.
 Thanks.
 
