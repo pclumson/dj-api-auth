@@ -13,6 +13,7 @@ Thanks.
 <img width="1535" height="958" alt="Screenshot from 2025-09-24 01-33-56" src="https://github.com/user-attachments/assets/3836823e-99af-4444-9cd2-7a29c6e6519d" />
 
 This is the token and user info
+
 <img width="1535" height="958" alt="Screenshot from 2025-09-24 01-44-22" src="https://github.com/user-attachments/assets/9e58c546-5e29-4a21-a195-2a5030de3d65" />
 
 # This is the JWT token return endpoint
@@ -98,7 +99,7 @@ Work in progress...
 This project began as a fork of `django-rest-auth` and "dj-rest-auth" . Big thanks to everyone who contributed to that repo!
 
 #### A note from Me
-I will trying my best to maintain this project but anyone is welcom to help maintined it.
+I will be trying my best to maintain this project but anyone is welcom to help maintined it.
 There is so many features that I am planning on adding to this.
 So feel free to make propositions on features that should be added.
 Thanks.
