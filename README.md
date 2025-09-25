@@ -1,6 +1,12 @@
 # dj-apis-allauth
 Django Rest Framework  API Endpoints secure Authentications . This package is ideal for Mobile Applications or Single Page Application Integration such  as Flutter, VueJs, React, AngularJs etc....
 
+
+
+[![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/dj-apis-allauth/)
+
+
+
 # Why this project ?
 
 The maintainer of "dj-rest-auth" is no longer interested in maintaining the project with Django-allauth issues and nor accepting pull requests.
