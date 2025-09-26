@@ -12,11 +12,13 @@ Thanks.
 
 # The regular django api token with user's info
 
-<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-33-56" src="https://github.com/user-attachments/assets/3836823e-99af-4444-9cd2-7a29c6e6519d" />
+
+<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-56-57" src="https://github.com/user-attachments/assets/0009a3a8-b28b-4585-bc57-e12568e6ded4" />
 
 This is the token and user info
 
-<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-44-22" src="https://github.com/user-attachments/assets/9e58c546-5e29-4a21-a195-2a5030de3d65" />
+<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-57-16" src="https://github.com/user-attachments/assets/dd410bea-1c83-4e68-a2db-7f92115f296f" />
+
 
 # This is the JWT token return endpoint
 
@@ -30,8 +32,9 @@ This is the token and user info
 
 <img width="1328" height="981" alt="Screenshot from 2025-09-26 18-53-51" src="https://github.com/user-attachments/assets/9405278c-b98e-47a5-b261-26d86e5805e5" />
 
-## Requirements
 
+
+## Requirements
 - Django >= 4.2
 - Python >= 3.12
 
