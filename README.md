@@ -56,7 +56,7 @@ Add URL patterns
 
 ```python
 urlpatterns = [
-    path('dj-apis-allauth/', include('dj_apis_allauth.urls')),
+    path('dj_apis_allauth/', include("dj_apis_allauth.urls")),
 ]
 ```
     
