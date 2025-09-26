@@ -22,16 +22,15 @@ This is the token and user info
 
 # This is the JWT token return endpoint
 
-<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-51-16" src="https://github.com/user-attachments/assets/cc843beb-c8c7-4cda-9f00-cc73dbe6e19c" />
+<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-57-57" src="https://github.com/user-attachments/assets/4c097266-404c-4659-bed3-23f5ff84c0fc" />
 
+<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-58-19" src="https://github.com/user-attachments/assets/b3bc8051-6969-4678-a8d7-a69a82a53bdd" />
 
-<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-51-29" src="https://github.com/user-attachments/assets/42746d44-4a31-4661-be37-053eb966ab27" />
 
 
 #  A simple registration page
 
 <img width="1328" height="981" alt="Screenshot from 2025-09-26 18-53-51" src="https://github.com/user-attachments/assets/9405278c-b98e-47a5-b261-26d86e5805e5" />
-
 
 
 ## Requirements
