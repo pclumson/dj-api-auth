@@ -101,6 +101,7 @@ by running `tox -e flake8`.
 ### Documentation
 
 Work in progress...
+https://dj-apis-allauth.readthedocs.io/en/latest/
 
 
 ### Acknowledgements
