@@ -108,7 +108,7 @@ Work in progress...
 This project began as a fork of `django-rest-auth` and "dj-rest-auth" . Big thanks to everyone who contributed to that repo!
 
 #### A note from Me
-I will be trying my best to maintain this project but anyone is welcom to help maintined it.
+I will be trying my best to maintain this project but anyone is welcom to help maintain it.
 There is so many features that I am planning on adding to this.
 So feel free to make propositions on features that should be added.
 Thanks.
