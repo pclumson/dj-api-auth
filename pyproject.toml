@@ -3,7 +3,7 @@ name = "dj-apis-allauth"
 version = "1.0.0"
 description = "Secure API Endpoints Authentication with Django REST Framework"
 authors = [
-    {name = "Prince Clumson-Eklu",email = "ameto888@protonmail.com"}
+    {name = "Prince Clumson-Eklu",email = "sierralustra.com.senate390@passfwd.com"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
